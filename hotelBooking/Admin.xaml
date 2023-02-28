@@ -1,0 +1,31 @@
+﻿<Window x:Class="hotelBooking.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hotelBooking"
+        mc:Ignorable="d"
+        Title="Admin" Height="450" Width="800">
+    <Grid>
+        <Button Content="Show All Hotels" HorizontalAlignment="Left" Margin="150,164,0,0" VerticalAlignment="Top" Width="459" Click="Show_Hotels_Button_Click"/>
+        <DataGrid
+            x:Name="hotelDataGrid"  Margin="150,199,191,104"
+            CanUserAddRows="True"
+            ItemsSource="{Binding}"
+            AutoGenerateColumns="False"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Hotel ID" Binding="{Binding hotelID}"/>
+                <DataGridTextColumn Header="Hotel Name" Binding="{Binding hotelName}"/>
+                <DataGridTextColumn Header="Hotel Address" Binding="{Binding hotelAddress}"/>
+                <DataGridTextColumn Header="Hotel City" Binding="{Binding hotelCity}"/>
+                <DataGridTextColumn Header="Hotel Ratings" Binding="{Binding hotelRatings}"/>
+                <DataGridTextColumn Header="Room Availability" Binding="{Binding roomAvailability}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtHotelCitySelector" HorizontalAlignment="Left" Margin="319,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Enter the city for hotel search:" HorizontalAlignment="Left" Margin="150,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Admin" HorizontalAlignment="Left" Margin="72,44,0,0" VerticalAlignment="Top" Height="56" Width="222" FontSize="30"/>
+
+    </Grid>
+</Window>

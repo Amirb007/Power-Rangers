@@ -1,0 +1,16 @@
+﻿<Window x:Class="hotelBooking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hotelBooking"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Margin="10,10,0,-6">
+        <TextBox x:Name="txtBookingStatus" Visibility="Hidden" HorizontalAlignment="Left" Margin="32,356,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="189" Height="23"/>
+        <Button Content="Admin" HorizontalAlignment="Left" Margin="154,144,0,0" VerticalAlignment="Top" Height="69" Width="116" Click="Admin_Click"/>
+        <Button Content="Booking Hotel" HorizontalAlignment="Left" Margin="492,144,0,0" VerticalAlignment="Top" Height="69" Width="142" Click="Booking_Click"/>
+        <Label Content="Hotel Booking" HorizontalAlignment="Left" Margin="333,83,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

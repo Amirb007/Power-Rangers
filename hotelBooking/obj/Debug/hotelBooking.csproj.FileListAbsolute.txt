@@ -1,0 +1,16 @@
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.csproj.AssemblyReference.cache
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.csproj.SuggestedBindingRedirects.cache
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\MainWindow.g.cs
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\App.g.cs
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking_MarkupCompile.cache
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking_MarkupCompile.lref
+A:\NupurKAwsalNafi\hotelBooking\bin\Debug\hotelBooking.exe.config
+A:\NupurKAwsalNafi\hotelBooking\bin\Debug\hotelBooking.exe
+A:\NupurKAwsalNafi\hotelBooking\bin\Debug\hotelBooking.pdb
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\MainWindow.baml
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.g.resources
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.Properties.Resources.resources
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.csproj.GenerateResource.cache
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.csproj.CoreCompileInputs.cache
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.exe
+A:\NupurKAwsalNafi\hotelBooking\obj\Debug\hotelBooking.pdb
